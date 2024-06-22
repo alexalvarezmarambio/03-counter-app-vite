@@ -1,5 +1,7 @@
+/* eslint-disable no-undef */
 test('should first', () => {
-  
-});
-
-test('Secon test', () => {  })
+  const num = 0;
+  if (0 === num) {
+    throw new Error('Este es un error');
+  }
+})
