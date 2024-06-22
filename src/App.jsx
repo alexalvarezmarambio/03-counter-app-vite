@@ -1,5 +1,5 @@
-import { FirstApp } from "./FirstApp";
+import { CounterApp } from "./CounterApp";
 
 export const App = () => {
-  return <FirstApp title={"Hola, soy Alex"} />;
+  return <CounterApp value={3} />;
 };
