@@ -3,7 +3,7 @@
 import { getSaludo } from "../../src/base-pruebas/02-template-string";
 
 describe('Pruebas en 02-template', () => {
-  test('getSaludo debe retornar', () => {
+  test('getSaludo debe retornar "Hola Alex"', () => {
     const name = 'Alex';
     const message = getSaludo(name);
 
